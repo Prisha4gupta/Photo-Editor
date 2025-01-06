@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Photo Editor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AI Photo Editor</h1>
+    <canvas id="canvas" width="500" height="300"></canvas>
+
+    <input type="file" id="image-upload" accept="image/*" />
+    <label for="image-upload">Upload Image</label>
+    <br>
+
+    <div>
+      <button id="remove-bg">Remove Background</button>
+      <button id="apply-filter">Apply Filter</button>
+      <button id="crop">Crop Image</button>
+      <button id="reset">Reset</button>
+    </div>
+  </div>
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
